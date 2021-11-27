@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="20dp"
+    android:layout_marginEnd="20dp"
+    android:layout_marginTop="4dp"
+    android:layout_gravity="center"
+    android:id="@+id/bahasacoding"
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="10dp"
+        >
+
+        <ImageView
+            android:id="@+id/ImageBahasa"
+            android:layout_width="60dp"
+            android:layout_height="200dp"
+            android:contentDescription="@string/bp" />
+
+        <TextView
+            android:id="@+id/namaBahasa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/ImageBahasa"
+            android:textStyle="bold"
+            android:gravity="center"
+            />
+
+        <TextView
+            android:id="@+id/deskripsiBahasa"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_toEndOf="@id/ImageBahasa"
+            android:gravity="center"
+
+            android:textStyle="normal" />
+
+
+
+
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>
