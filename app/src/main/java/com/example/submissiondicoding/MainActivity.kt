@@ -27,35 +27,47 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             DataBahasa(
                 R.drawable.javascript,
                 "javascript",
-                "Javascript adalah bahasa terpopuler"
+                "Fungsi Javascript termasuk istimewa, karena mampu mengembangkan website yang menarik dan interaktif."
             ),
             DataBahasa(
-                R.drawable.javascript,
-                "Rahmat hidayat",
-                "Rahmat hidayat adalah bahasa terpopuler"
+                R.drawable.bahasar,
+                "BahasaR",
+                "Bahasa R merupakan bahasa pemrograman berbasis interpreter, sehingga eksekusi suatu aplikasi/fungsi yang ditulis dengan bahasa R terutama aplikasi/fungsi yang membutuhkan program code yang panjang akan membutuhkan waktu yang relatif lama."
             ),
             DataBahasa(
-                R.drawable.javascript,
-                "javascript",
-                "Javascript adalah bahasa terpopuler"
+                R.drawable.cplus,
+                "C#",
+                " C# atau dibaca C Sharp menggabungkan prinsip C dan C++ dan dikembangkan oleh Miscrosoft."
             ),
             DataBahasa(
-                R.drawable.javascript,
-                "javascript",
-                "Javascript adalah bahasa terpopuler"
+                R.drawable.csharp,
+                "csharp",
+                " merupakan sebuah bahasa pemrograman yang berorientasi objek yang dikembangkan oleh Microsoft sebagai bagian dari inisiatif kerangka "
             ),
             DataBahasa(
-                R.drawable.javascript,
-                "javascript",
-                "Javascript adalah bahasa terpopuler"
+                R.drawable.objective,
+                "objective C",
+                "Objective – C merupakan bahasa pemrograman yang dikembangkan pada era 1983, oleh Brad Cox dan Tom Love"
             ),DataBahasa(
-                R.drawable.javascript,
-                "javascript",
-                "Javascript adalah bahasa terpopuler"
+                R.drawable.php,
+                "PHP",
+                "PHP menjadi bahasa komputer yang populer di kalangan web developer untuk mengembangkan website"
             ),DataBahasa(
-                R.drawable.javascript,
-                "javascript",
-                "Javascript adalah bahasa terpopuler"
+                R.drawable.python,
+                "Python",
+                "JPython banyak digunakan oleh perusahaan besar dalam pengembangannya seperti NASA, Instragam, Google, Yahoo, Reddit, dan juga situs streaming video populer YouTube."
+            ), DataBahasa(
+                R.drawable.swift,
+                "Swift",
+                "Bahasa Swift merupakan bahasa pengantar untuk pengembang Mac, dan iOS dan menjadi platform utama Apple."
+            ), DataBahasa(
+                R.drawable.typescript,
+                "Typescript",
+                "TypeScript adalah suatu bahasa pemrograman yang dibangun berdasarkan JavaScript."
+            ), DataBahasa(
+                R.drawable.vba,
+                "VBA",
+                "VBA merupakan kombinasi yang terintegrasi antara lingkungan pemrograman (Visual Basic Editor) dengan bahasa pemrograman (Visual Basic)"
             )
 
 
