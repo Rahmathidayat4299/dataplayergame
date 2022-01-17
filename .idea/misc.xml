@@ -10,6 +10,7 @@
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/SubmissionDicoding/app/src/main/res/layout/activity_profile_dicoding.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/SubmissionDicoding/app/src/main/res/layout/activity_profile_dicoding2.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/SubmissionDicoding/app/src/main/res/layout/activity_profile_dicoding3.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/ASUS/AndroidStudioProjects/SubmissionDicoding/app/src/main/res/layout/activity_splash_screen.xml" value="0.1" />
         <entry key="..\:/Users/ASUS/AndroidStudioProjects/SubmissionDicoding/app/src/main/res/layout/bahasa_pemrograman.xml" value="0.33" />
       </map>
     </option>
@@ -23,7 +24,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.5" />
+        <option name="scale" value="0.1" />
       </ProjectState>
     </option>
   </component>

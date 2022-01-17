@@ -12,14 +12,14 @@ import androidx.recyclerview.widget.RecyclerView
 import com.example.submissiondicoding.BahasaAdapter.*
 import java.security.AccessControlContext
 
-class BahasaAdapter(private val context: Context, private val dataBahasa: List<DataBahasa>,val listener: (DataBahasa) -> Unit)
-    :RecyclerView.Adapter<BahasaAdapter.DataBahasaViewHolder>() {
+class BahasaAdapter(
+    private val context: Context,
+    private val dataBahasa: List<DataBahasa>,
+    val listener: (DataBahasa) -> Unit
+) : RecyclerView.Adapter<BahasaAdapter.DataBahasaViewHolder>() {
 
 
-
-
-    class DataBahasaViewHolder(view: View):RecyclerView.ViewHolder(view)
-    {
+    class DataBahasaViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val imageBahasa = view.findViewById<ImageView>(R.id.ImageBahasa)
         val namaBahasa = view.findViewById<TextView>(R.id.namaBahasa)
         val DescBahasa = view.findViewById<TextView>(R.id.deskripsiBahasa)
@@ -27,14 +27,8 @@ class BahasaAdapter(private val context: Context, private val dataBahasa: List<D
             imageBahasa.setImageResource(dataBahasa.imageBahasa)
             namaBahasa.text = dataBahasa.namaBahasa
             DescBahasa.text = dataBahasa.DescBahasa
-
-            itemView.setOnClickListener{listener(dataBahasa)}
-
-
+            itemView.setOnClickListener { listener(dataBahasa) }
         }
-
-
-
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): DataBahasaViewHolder {
@@ -48,6 +42,6 @@ class BahasaAdapter(private val context: Context, private val dataBahasa: List<D
     }
 
     override fun getItemCount(): Int = dataBahasa.size
-    }
+}
 
 
